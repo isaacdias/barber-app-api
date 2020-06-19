@@ -1,10 +1,10 @@
-module.exports =  {
+module.exports = {
   dialect: 'postgres',
   host: 'localhost',
-  usename: 'postgres',
+  username: 'postgres',
   password: 'docker',
-  database: 'barberapp',
-  define = {
+  database: 'baberapp',
+  define: {
     timestamps: true,
     underscored: true,
     underscoredAll: true,
